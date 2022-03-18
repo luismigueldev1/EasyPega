@@ -11,7 +11,7 @@
 
 ## Requirements
 
--Chromium based browser (Edge, Chrome, Brave and others)
+- Chromium based browser (Edge, Chrome, Brave and others)
 
 ## How to install
 
