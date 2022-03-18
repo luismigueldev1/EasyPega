@@ -1,0 +1,29 @@
+html {
+  width: 330px;
+}
+
+form .form-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+form .form-item label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+form .form-item input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+form .form-item button {
+  padding: 8px;
+  font-size: 16px;
+  background-color: rgb(36, 32, 32);
+  color: rgb(232, 232, 232);
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}

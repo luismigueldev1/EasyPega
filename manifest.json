@@ -1,0 +1,36 @@
+{
+    "name": "EasyPega",
+    "description": "Ease rent and automatic races for us",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "icons": {
+        "16":"/images/icon16.png",
+        "48":"/images/icon48.png",
+        "128": "/images/icon128.png"
+    },
+    "permissions": [
+        "storage"
+      ],
+
+        
+    "content_scripts": [
+        {
+            "matches": ["https://play.pegaxy.io/renting/listing/*"],
+            "js": ["content-script.js"]
+          
+        },
+        {
+            "matches": ["https://play.pegaxy.io/racing/*"],
+            "js": ["automaticRaces.js"]
+          
+        }
+    ],
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "16":"/images/icon16.png",
+            "48":"/images/icon48.png",
+            "128": "/images/icon128.png"
+        }
+      }
+  }
