@@ -15,9 +15,9 @@
 
 ## How to install
 
--Download this repository
--Activate developer mode on browser extensions settings
--Load on unpacked and select de folder
+- Download this repository
+- Activate developer mode on browser extensions settings
+- Load on unpacked and select de folder
 
 ## How to use
 
