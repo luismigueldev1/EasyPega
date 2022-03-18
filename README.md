@@ -1,6 +1,6 @@
 # EasyPega
 
-## \_Ease rent & automatic races for us\_\_
+## _Ease rent & automatic races for us_
 
 ## Features
 
@@ -42,4 +42,4 @@
 Also if you found this repository useful you can support me donating:
 
 - **(Binance Smart Chain / Polygon) address:** 0x51176dB14Bb10dC14c93947EC7D345bda5Ecb07D
-"# EasyPega" 
+  "# EasyPega"
