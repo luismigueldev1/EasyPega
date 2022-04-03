@@ -81,3 +81,7 @@ setInterval(() => {
     }, 1000);
   }
 }, 2000);
+
+setInterval(() => {
+  window.location.reload();
+}, 360000);
