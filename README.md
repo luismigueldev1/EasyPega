@@ -17,14 +17,14 @@
 
 - Download this repository
 - Activate developer mode on browser extensions settings
-- Load on unpacked and select de folder
+- Load on unpacked and select the folder
 
 ## How to use
 
 ### In Rent:
 
-- Pick and horse to rent in rent page(the url should like this: _https://play.pegaxy.io/renting/listing/2101075_ may you need to refresh the page.
-- To move to 1 digit in the url. **press the key (1)** _you can use the next numbers:_
+- Pick a horse to rent in rent page(the url should like this: _https://play.pegaxy.io/renting/listing/2101075_ may you need to refresh the page.
+- To move 1 digit in the url. **press the key (1)** _you can use the next numbers:_
   - **press the key (2) or (E)** to move 2 digits in url
   - **press the key (3)** to move 3 digits in url
   - **press the key (4)** to move 4 digits in url
