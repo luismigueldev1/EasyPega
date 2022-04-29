@@ -3,11 +3,11 @@ setInterval(() => {
   let pegasCards, pegasEnergysElements;
   pegasCards =
     document.querySelectorAll(
-      "#__next > div.root > div.container > div > div.bx-right.fixed > div.bx-content.default > div > div > div > div > div.item-pega"
+      "#__next > div.root > div.container > div > div.bx-right.fixed > div.bx-content.default > div > div > div > div > div > div"
     ) || null;
   pegasEnergysElements =
     document.querySelectorAll(
-      "#__next > div.root > div.container > div > div.bx-right.fixed > div.bx-content.default > div > div > div > div > div > div > div > div.item-info > div.action-enegy.sm > div > div.list-enegy > div > span"
+      "#__next > div.root > div.container > div > div.bx-right.fixed > div.bx-content.default > div > div > div > div > div > div.item-pega > div > div > div.item-info > div.action-enegy.sm > div > div.list-enegy > div > span"
     ) || null;
 
   let energys = [];
@@ -43,7 +43,7 @@ setInterval(() => {
   //get Start Button and click them
   const textButtonStart =
     document.querySelector(
-      "#__next > div.root > div.container > div > div.bx-left > div.bx-content.default > div > div.infoPega > div.pega-info > div.viewButton > span"
+      "#__next > div.root > div.container > div > div.bx-left > div.bx-content.default > div > div.infoPega > div > div.viewButton > span"
     ) || null;
 
   //validate if exist
@@ -82,6 +82,13 @@ setInterval(() => {
   }
 }, 2000);
 
+//generate random number
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
 setInterval(() => {
   window.location.reload();
-}, 360000);
+}, getRandomInt(180000, 300000));
